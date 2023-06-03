@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h3,
+      li {
+        color: brown;
+      }
+
+      div > div > strong {
+        background-color: yellow;
+      }
+
+      ul strong {
+        color: blue;
+      }
+
+      .warning {
+        color: crimson;
+      }
+
+      body.main {
+        background-color: rgb(234, 218, 187);
+      }
+
+      #list {
+        background-color: rgb(196, 185, 218);
+      }
+
+      #list span {
+        color: cornflowerblue;
+      }
+
+      h3 ::first-letter {
+        color: red;
+      }
+
+      li :hover {
+        background-color: cornflowerblue;
+      }
+    </style>
+  </head>
+  <body class="main">
+    <h3>Web programming</h3>
+    <hr />
+
+    <div>
+      <div>1학기 <strong>학습내용</strong>입니다.</div>
+      <ul id="list">
+        <li><span>HTML5</span></li>
+        <li><strong>CSS</strong></li>
+        <li>JAVASCRIPT</li>
+      </ul>
+      <div class="warning">60점 이하는 F</div>
+    </div>
+  </body>
+</html>
