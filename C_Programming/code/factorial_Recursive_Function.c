@@ -4,7 +4,7 @@
 
 int func(int num)
 {
-    if (num == 0) return;
+    if (num == 0) return 1;
     return num * func(num - 1);
 }
 
