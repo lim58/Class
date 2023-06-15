@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      div {
+        width: 150px;
+        height: 70px;
+        padding: 10px;
+        border: 1px solid darkblue;
+        background-image: url("../img/duck.png");
+        background-size: 150px 100px;
+        background-repeat: no-repeat;
+        margin: 30px 0px;
+      }
+
+      .a {
+        box-shadow: 10px 10px darkgreen;
+      }
+      .b {
+        box-shadow: 10px 10px 5px darkcyan;
+      }
+      .c {
+        box-shadow: 2px 2px 2px black, 0 0 25px khaki, 0 0 25px darkgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <h3 style="cursor: crosshair">박스 그림자 만들기</h3>
+    <hr />
+    <div class="a" style="cursor: pointer">TEST</div>
+    <div class="b" style="cursor: wait">TEST</div>
+    <div class="c" style="cursor: progress">TEST</div>
+  </body>
+</html>
