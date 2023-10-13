@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>setInterval 함수</h3>
+    <hr />
+    <script>
+      let counter = 0;
+      let timer = setInterval(() => {
+        console.log("안녕");
+        counter++;
+        if (counter === 5) {
+          clearInterval();
+        }
+      }, 2000);
+    </script>
+  </body>
+</html>
