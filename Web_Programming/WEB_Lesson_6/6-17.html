@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // 배열
+      arrayA = [];
+      console.log(typeof arrayA);
+
+      const students = ["lim", "da", "young", "a"];
+      console.log(students.length);
+      for (let i = 0; i < students.length; i++) {
+        console.log(students[i]);
+      }
+
+      // forEach
+      const name = ["lim", "da", "young", "a"];
+      students.forEach(function () {
+        console.log(i);
+      });
+
+      // for ... in문 객체 값 가져오기
+      // for(변수 in 객체) {...}
+      const books = {
+        title: "Js 기초",
+        pubDate: "2023-09-20",
+        page: 300,
+        finished: true,
+      };
+
+      for (key in books) {
+        console.log(`${key} : ${books[key]}`);
+      }
+
+      // for ... of 사용해서 빈복 가능 객체 값 가져오기
+      // for(변수 of 객체) {...}
+      const Eng = ["a", "b", "c", "d"];
+      for (let i of Eng) {
+        console.log(i);
+      }
+    </script>
+  </body>
+</html>
